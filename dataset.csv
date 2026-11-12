@@ -1,0 +1,503 @@
+customer_id,age,gender,city,category,product,price,quantity,discount_percent,rating,purchase_date,payment_method
+1,55,Male,Astana,Clothing,Blouse,26500,1,20,3.1,10-06-2026,Halyk QR
+2,19,Male,Shymkent,Clothing,Sweater,32000,2,15,3.1,01-01-2026,Cash
+3,50,Male,Astana,Clothing,Jeans,36500,,10,3.1,15-07-2026,Bank Card
+4,21,Male,Shymkent,Footwear,Sandals,45000,2,25,3.5,09-07-2026,Kaspi QR
+5,45,Male,Shymkent,Clothing,Blouse,24500,1,0,2.7,11-04-2026,Halyk QR
+6,46,Male,Karaganda,Footwear,Sneakers,10000,2,20,2.9,04-03-2026,Bank Card
+7,63,Male,Astana,Clothing,Shirt,42500,4,25,3.2,27-03-2026,Cash
+8,27,Male,Atyrau,Clothing,Shorts,17000,2,10,3.2,21-01-2026,Halyk QR
+9,26,Male,Almaty,Outerwear,Coat,48500,1,20,2.6,28-04-2026,Halyk QR
+10,57,Male,Astana,Accessories,Handbag,15500,2,5,4.8,20-05-2026,Halyk QR
+11,53,Male,Karaganda,Footwear,Shoes,17000,2,15,4.1,16-08-2026,Cash
+12,30,Male,Almaty,Clothing,Shorts,34000,2,25,4.9,17-07-2026,Bank Card
+13,61,Male,Almaty,Outerwear,Coat,36000,3,5,4.5,02-06-2026,Kaspi QR
+14,65,Male,,Clothing,Dress,25500,3,10,4.7,08-03-2026,Kaspi QR
+15,64,Male,Almaty,Outerwear,Coat,26500,1,10,4.7,09-07-2026,Halyk QR
+16,64,Male,Almaty,Clothing,Skirt,40500,1,15,2.8,01-06-2026,Cash
+17,25,Male,Karaganda,Accessories,Sunglasses,18000,1,25,4.1,06-08-2026,Halyk QR
+18,53,Male,Shymkent,Clothing,Dress,,3,5,4.7,16-07-2026,Kaspi QR
+19,52,Male,Atyrau,Clothing,Sweater,24000,3,10,4.6,06-04-2026,Halyk QR
+20,66,Male,Aktobe,Clothing,Pants,45000,1,25,3.3,24-04-2026,Cash
+21,21,Male,Astana,Clothing,Pants,25500,1,25,2.8,14-06-2026,Cash
+22,31,Male,Shymkent,Clothing,Pants,31000,4,25,4.1,19-08-2026,Bank Card
+23,56,Male,Aktobe,Clothing,Pants,18500,4,15,3.2,11-08-2026,Halyk QR
+24,31,Male,Karaganda,Clothing,Pants,44000,3,5,4.4,21-04-2026,Halyk QR
+25,18,Male,Aktobe,Outerwear,Jacket,11000,3,15,2.9,02-08-2026,Kaspi QR
+26,18,Male,Astana,Clothing,Hoodie,12500,1,5,3.6,08-03-2026,Kaspi QR
+27,38,Male,Karaganda,Accessories,Jewelry,10000,3,10,3.6,01-05-2026,Bank Card
+28,56,Male,Atyrau,Clothing,Shorts,28000,2,20,5.0,19-02-2026,Halyk QR
+29,54,Male,Almaty,Accessories,Handbag,47000,2,15,4.4,04-08-2026,Kaspi QR
+30,31,Male,Atyrau,Clothing,Dress,24000,2,10,4.1,18-08-2026,Kaspi QR
+31,57,Male,Aktobe,Accessories,Jewelry,15500,3,15,4.7,12-05-2026,Kaspi QR
+32,33,Male,Karaganda,Clothing,Dress,39500,2,25,4.7,17-05-2026,Cash
+33,36,Male,Aktobe,Outerwear,Jacket,33500,1,10,4.9,18-01-2026,Kaspi QR
+34,54,Male,Aktobe,Clothing,Pants,19000,1,25,3.3,12-02-2026,Halyk QR
+35,36,Male,Karaganda,Clothing,T-shirt,45500,1,15,4.6,17-02-2026,Kaspi QR
+36,54,Male,Astana,Clothing,Blouse,16500,2,10,4.0,15-07-2026,Bank Card
+37,35,Male,Shymkent,Clothing,T-shirt,34500,2,20,4.6,10-05-2026,Halyk QR
+38,35,Male,Aktobe,Clothing,Jeans,22500,2,15,2.8,25-07-2026,Halyk QR
+39,29,Male,Atyrau,Clothing,Dress,18500,4,15,3.7,18-06-2026,Halyk QR
+40,70,Male,Shymkent,Clothing,Pants,30000,2,10,4.2,19-03-2026,Kaspi QR
+41,69,Male,Almaty,Accessories,Handbag,38000,5,15,4.6,21-04-2026,Bank Card
+42,67,Male,Astana,Accessories,Scarf,19500,1,10,4.5,25-08-2026,Bank Card
+43,20,Male,Aktobe,Outerwear,Coat,50000,1,20,4.1,24-06-2026,Kaspi QR
+44,25,Male,Atyrau,Accessories,Scarf,34500,2,10,3.7,28-07-2026,Bank Card
+45,39,Male,Karaganda,Accessories,Hat,26500,1,0,4.6,08-02-2026,Cash
+46,50,Male,Aktobe,Clothing,Socks,10500,2,20,2.9,16-06-2026,Kaspi QR
+47,57,Male,Aktobe,Clothing,Shirt,21500,3,0,2.9,04-01-2026,Cash
+48,55,Male,Aktobe,Accessories,Jewelry,,3,5,4.5,13-01-2026,Halyk QR
+49,42,Male,Atyrau,Clothing,Shirt,27500,2,5,2.7,06-05-2026,Cash
+50,68,Male,Astana,Clothing,Hoodie,15000,1,25,4.6,24-02-2026,Halyk QR
+51,49,Male,Astana,Clothing,Blouse,14000,4,25,3.7,06-01-2026,Halyk QR
+52,59,Male,Aktobe,Clothing,Skirt,29500,1,5,4.7,13-04-2026,Halyk QR
+53,42,Male,Karaganda,Clothing,T-shirt,10000,4,20,2.6,22-06-2026,Kaspi QR
+54,29,Male,Astana,Clothing,Skirt,12000,4,10,3.9,16-03-2026,Halyk QR
+55,47,Male,Karaganda,Outerwear,Coat,47000,4,25,4.2,13-03-2026,Halyk QR
+56,40,Male,Shymkent,Outerwear,Jacket,14000,1,5,3.0,21-01-2026,Halyk QR
+57,41,Male,Karaganda,Accessories,Backpack,36500,1,25,4.7,20-08-2026,Kaspi QR
+58,21,Male,Astana,Outerwear,Coat,32000,1,10,4.4,04-05-2026,Cash
+59,69,Male,Aktobe,Clothing,Hoodie,27000,3,10,4.2,27-04-2026,Cash
+60,63,Male,Almaty,Accessories,Belt,39500,4,5,4.6,10-07-2026,Cash
+61,50,Male,Atyrau,Clothing,Sweater,18500,1,25,4.0,14-05-2026,Bank Card
+62,55,Male,Karaganda,Accessories,Scarf,34000,1,5,4.7,08-04-2026,Kaspi QR
+63,30,Male,Atyrau,Footwear,Sneakers,10500,3,20,3.8,10-06-2026,Halyk QR
+64,33,Male,Shymkent,Accessories,Sunglasses,39500,3,0,2.7,28-02-2026,Kaspi QR
+65,65,Male,Astana,Footwear,Boots,41500,4,10,4.8,25-06-2026,Halyk QR
+66,65,Male,Astana,Accessories,Backpack,18000,1,0,4.8,10-03-2026,Halyk QR
+67,31,Male,Karaganda,Clothing,Blouse,47000,2,15,4.7,07-05-2026,Cash
+68,45,Male,Shymkent,Outerwear,Coat,16500,,0,4.4,04-06-2026,Halyk QR
+69,57,Male,Atyrau,Accessories,Handbag,23000,1,15,3.9,15-08-2026,Cash
+70,48,Male,Karaganda,Accessories,Belt,35000,3,20,4.4,21-03-2026,Bank Card
+71,22,Male,Shymkent,Accessories,Belt,14500,2,5,4.2,05-05-2026,Kaspi QR
+72,36,Male,Atyrau,Clothing,Dress,24000,1,25,2.9,22-03-2026,Kaspi QR
+73,18,Male,Karaganda,Clothing,Dress,13000,2,10,2.9,11-05-2026,Bank Card
+74,48,Male,Shymkent,Clothing,Pants,42500,2,20,2.7,02-06-2026,Halyk QR
+75,49,Male,Aktobe,Accessories,Gloves,29000,4,25,4.5,13-05-2026,Bank Card
+76,64,Male,Atyrau,Accessories,Scarf,42500,3,15,2.7,04-04-2026,Bank Card
+77,50,Male,Almaty,Accessories,Hat,21500,1,0,4.2,01-05-2026,Kaspi QR
+78,22,Male,Karaganda,Clothing,Dress,26500,1,10,3.3,27-02-2026,Cash
+79,50,Male,Astana,Clothing,Skirt,45500,1,20,4.7,07-08-2026,Halyk QR
+80,38,Male,Atyrau,Outerwear,Jacket,48000,3,10,2.6,19-07-2026,Kaspi QR
+81,19,Male,Astana,Footwear,Sandals,36000,1,15,3.3,23-03-2026,Bank Card
+82,67,Male,Shymkent,Footwear,Shoes,48000,2,10,2.6,01-02-2026,Kaspi QR
+83,19,Male,Astana,Clothing,Pants,14000,1,25,4.0,24-07-2026,Kaspi QR
+84,36,Male,Almaty,Clothing,Dress,20000,2,25,4.1,29-08-2026,Kaspi QR
+85,52,Male,Atyrau,Outerwear,Coat,16000,1,0,4.4,05-06-2026,Cash
+86,53,Male,Shymkent,Accessories,Sunglasses,47500,4,5,4.5,06-08-2026,Cash
+87,24,Male,Shymkent,Clothing,Hoodie,20500,1,25,3.7,10-07-2026,Cash
+88,52,Male,Astana,Footwear,Shoes,26500,2,5,3.7,02-07-2026,Cash
+89,33,Male,Atyrau,Clothing,T-shirt,23500,1,15,3.5,24-08-2026,Cash
+90,47,Male,Aktobe,Outerwear,Jacket,41500,1,5,3.6,29-04-2026,Bank Card
+91,25,Male,Astana,Accessories,Hat,24000,3,0,2.9,05-06-2026,Kaspi QR
+92,44,Male,Astana,Accessories,Scarf,49500,1,0,4.6,01-08-2026,Halyk QR
+93,61,Male,Atyrau,Outerwear,Jacket,43500,1,0,4.4,09-05-2026,Cash
+94,37,Male,Astana,Clothing,Sweater,31000,5,20,4.5,27-08-2026,Kaspi QR
+95,58,Male,Astana,Clothing,Skirt,38000,1,5,4.6,04-02-2026,Cash
+96,37,Male,Shymkent,Footwear,Sneakers,50000,2,20,3.8,30-07-2026,Bank Card
+97,32,Male,Almaty,Accessories,Gloves,36500,2,15,3.6,11-07-2026,Halyk QR
+98,21,Male,Astana,Footwear,Shoes,46000,1,20,4.8,17-02-2026,Kaspi QR
+99,20,Male,Aktobe,Clothing,Jeans,33500,1,10,2.6,20-07-2026,Halyk QR
+100,26,Male,Atyrau,Clothing,Hoodie,20000,1,20,3.7,13-03-2026,Kaspi QR
+101,62,Male,Aktobe,Accessories,Sunglasses,49000,1,0,2.7,29-01-2026,Kaspi QR
+102,27,Male,Almaty,Outerwear,Coat,,2,10,4.6,02-07-2026,Bank Card
+103,51,Male,Atyrau,Clothing,Socks,33500,2,0,4.8,03-02-2026,Halyk QR
+104,54,Male,Almaty,Footwear,Boots,44500,1,5,4.0,04-07-2026,Kaspi QR
+105,55,Male,Astana,Accessories,Sunglasses,12000,4,0,4.4,25-07-2026,Halyk QR
+106,69,Male,Shymkent,Accessories,Backpack,48000,5,25,3.6,19-01-2026,Kaspi QR
+107,64,Male,Astana,Outerwear,Jacket,17500,4,20,3.7,14-06-2026,Cash
+108,28,Male,Astana,Footwear,Sneakers,33500,1,25,3.1,27-03-2026,Cash
+109,70,Male,Shymkent,Clothing,Socks,39500,5,10,3.4,21-04-2026,Bank Card
+110,58,Male,Karaganda,Clothing,T-shirt,42500,1,15,2.6,11-07-2026,Halyk QR
+111,56,Male,Karaganda,Accessories,Backpack,13000,3,15,4.0,04-03-2026,Halyk QR
+112,26,Male,Aktobe,Accessories,Belt,37500,1,15,5.0,24-06-2026,Bank Card
+113,37,Male,Karaganda,Accessories,Gloves,32500,1,20,4.3,25-05-2026,Halyk QR
+114,44,Male,Astana,Accessories,Hat,27000,1,15,3.1,05-07-2026,Halyk QR
+115,70,Male,Almaty,Outerwear,Coat,47500,5,20,3.7,16-03-2026,Bank Card
+116,53,Male,Shymkent,Clothing,Skirt,47000,2,10,3.8,01-03-2026,Kaspi QR
+117,55,Male,Karaganda,Footwear,Shoes,43000,1,15,3.4,19-05-2026,Bank Card
+118,50,Male,Aktobe,Footwear,Sandals,16000,2,5,4.6,03-08-2026,Halyk QR
+119,50,Male,Almaty,Clothing,Sweater,22500,1,0,4.8,01-01-2026,Halyk QR
+120,38,Male,Almaty,Outerwear,Coat,38000,1,5,4.3,01-01-2026,Halyk QR
+121,64,Male,Atyrau,Accessories,Hat,42000,2,0,4.0,12-04-2026,Kaspi QR
+122,19,Male,Atyrau,Clothing,Shorts,36000,1,0,4.2,05-05-2026,Kaspi QR
+123,40,Male,Aktobe,Accessories,Backpack,20000,2,15,4.8,16-07-2026,Bank Card
+124,57,Male,Aktobe,Clothing,Sweater,44500,2,20,3.1,29-04-2026,Kaspi QR
+125,44,Male,Almaty,Clothing,Sweater,43000,1,20,3.1,10-02-2026,Bank Card
+126,49,Male,Karaganda,Clothing,Shorts,27000,2,25,3.6,18-06-2026,Halyk QR
+127,43,Male,Shymkent,Clothing,Shorts,18000,1,20,3.9,12-05-2026,Halyk QR
+128,24,Male,Astana,Clothing,Sweater,44500,2,15,4.8,01-08-2026,Cash
+129,20,Male,Karaganda,Accessories,Scarf,16000,1,20,4.7,23-04-2026,Kaspi QR
+130,24,Male,Shymkent,Clothing,Dress,33500,1,20,4.2,20-02-2026,Bank Card
+131,44,Male,Atyrau,Accessories,Scarf,19500,1,25,3.7,27-03-2026,Kaspi QR
+132,28,Male,Karaganda,Clothing,Skirt,14500,2,0,3.9,24-02-2026,Halyk QR
+133,30,Male,Aktobe,Accessories,Backpack,29000,1,15,4.7,29-03-2026,Kaspi QR
+134,52,Male,Atyrau,Clothing,Sweater,32500,1,15,2.5,30-08-2026,Bank Card
+135,43,Male,Atyrau,Accessories,Hat,47000,2,5,4.9,27-01-2026,Cash
+136,43,Male,Astana,Footwear,Sandals,40500,3,20,4.1,23-04-2026,Halyk QR
+137,39,Male,Karaganda,Clothing,Blouse,43000,5,5,3.3,19-03-2026,Cash
+138,68,Male,Aktobe,Footwear,Sneakers,21500,2,5,4.7,05-05-2026,Bank Card
+139,68,Male,Almaty,Clothing,Skirt,14500,2,20,4.4,05-04-2026,Kaspi QR
+140,49,Male,Aktobe,Outerwear,Coat,47500,1,20,3.8,22-08-2026,Cash
+141,63,Male,Almaty,Clothing,Shirt,14000,1,5,3.9,01-01-2026,Cash
+142,56,Male,Astana,Accessories,Gloves,23000,2,0,4.9,05-03-2026,Kaspi QR
+143,37,Male,Karaganda,Outerwear,Jacket,29000,2,10,3.1,10-05-2026,Halyk QR
+144,30,Male,Shymkent,Outerwear,Coat,24000,2,5,2.7,04-02-2026,Cash
+145,19,Male,Almaty,Footwear,Shoes,21500,1,25,3.2,27-06-2026,Halyk QR
+146,24,Male,Karaganda,Accessories,Jewelry,47500,1,0,4.5,09-08-2026,Halyk QR
+147,52,Male,Karaganda,Clothing,Skirt,15000,3,20,4.0,30-06-2026,Halyk QR
+148,63,Male,Shymkent,Footwear,Shoes,32000,1,15,3.5,25-06-2026,Cash
+149,37,Male,Atyrau,Accessories,Gloves,45000,1,0,2.6,23-06-2026,Bank Card
+150,38,Male,Astana,Clothing,Pants,38000,4,20,3.2,03-03-2026,Kaspi QR
+151,35,Male,Aktobe,Footwear,Boots,48000,1,5,4.9,04-06-2026,Kaspi QR
+152,28,Male,Almaty,Accessories,Sunglasses,23500,3,20,4.5,19-06-2026,Cash
+153,30,Male,Aktobe,Clothing,Shirt,42500,1,25,4.3,13-03-2026,Bank Card
+154,69,Male,Karaganda,Clothing,Hoodie,27500,2,10,3.2,15-07-2026,Halyk QR
+155,41,Male,Atyrau,Clothing,Dress,49000,3,0,3.6,09-03-2026,Bank Card
+156,63,Male,Karaganda,Clothing,Socks,38500,1,15,4.3,07-07-2026,Halyk QR
+157,35,Male,,Clothing,Shorts,13000,1,20,4.0,21-06-2026,Bank Card
+158,36,Male,Shymkent,Accessories,Hat,34000,2,25,3.0,09-03-2026,Bank Card
+159,25,Male,Karaganda,Clothing,Shirt,36500,2,25,4.1,28-04-2026,Cash
+160,58,Male,Aktobe,Accessories,Gloves,13500,2,25,3.8,25-01-2026,Halyk QR
+161,27,Male,Shymkent,Accessories,Gloves,11500,4,25,,24-08-2026,Bank Card
+162,65,Male,Karaganda,Accessories,Backpack,24500,3,15,3.0,16-01-2026,Cash
+163,54,Male,Karaganda,Accessories,Sunglasses,37000,4,25,3.0,20-02-2026,Kaspi QR
+164,54,Male,Shymkent,Clothing,Skirt,33500,2,5,3.4,22-06-2026,Halyk QR
+165,59,Male,Karaganda,Accessories,Handbag,32500,1,25,2.6,09-07-2026,Kaspi QR
+166,42,Male,Shymkent,Accessories,Handbag,30000,3,0,2.8,23-03-2026,Bank Card
+167,46,Male,Astana,Footwear,Sneakers,15500,1,10,4.0,06-04-2026,Halyk QR
+168,33,Male,Karaganda,Accessories,Gloves,13500,5,5,4.0,06-06-2026,Halyk QR
+169,34,Male,Aktobe,Footwear,Shoes,40000,1,0,3.0,05-04-2026,Kaspi QR
+170,27,Male,Aktobe,Outerwear,Jacket,15000,2,10,3.3,09-01-2026,Bank Card
+171,52,Male,Astana,Clothing,Shirt,12500,3,5,2.6,15-05-2026,Cash
+172,29,Male,Astana,Clothing,Shorts,17500,1,10,3.6,10-01-2026,Kaspi QR
+173,54,Male,Almaty,Accessories,Jewelry,33500,1,20,3.9,07-06-2026,Kaspi QR
+174,25,Male,Atyrau,Accessories,Hat,23000,1,15,3.4,17-04-2026,Halyk QR
+175,41,Male,Karaganda,Footwear,Shoes,17500,2,15,3.5,05-02-2026,Cash
+176,53,Male,Shymkent,Outerwear,Coat,43000,1,15,2.8,30-01-2026,Halyk QR
+177,53,Male,Atyrau,Accessories,Backpack,40500,4,10,2.7,04-08-2026,Halyk QR
+178,21,Male,Almaty,Clothing,Hoodie,21000,1,20,3.7,15-01-2026,Cash
+179,61,Male,Almaty,Clothing,Skirt,21500,2,20,4.3,09-01-2026,Cash
+180,64,Male,Karaganda,Footwear,Boots,15500,5,5,4.9,22-08-2026,Bank Card
+181,51,Male,Aktobe,Footwear,Sandals,40500,4,15,3.3,01-08-2026,Kaspi QR
+182,32,Male,Atyrau,Clothing,Pants,30500,1,5,4.7,07-01-2026,Cash
+183,38,Male,Astana,Accessories,Gloves,48000,2,5,2.8,29-06-2026,Bank Card
+184,58,Male,Karaganda,Clothing,Skirt,14500,2,25,3.6,05-02-2026,Cash
+185,32,Male,,Footwear,Sneakers,16500,5,15,3.0,11-05-2026,Bank Card
+186,46,Male,Karaganda,Clothing,T-shirt,16000,2,20,4.5,10-04-2026,Halyk QR
+187,39,Male,Astana,Accessories,Backpack,28000,5,15,2.9,19-03-2026,Halyk QR
+188,19,Male,Shymkent,Footwear,Shoes,47000,1,0,3.3,13-08-2026,Halyk QR
+189,50,Male,Atyrau,Clothing,Hoodie,26500,1,10,3.1,27-01-2026,Cash
+190,36,Male,Shymkent,Clothing,Blouse,41000,2,25,4.4,11-06-2026,Bank Card
+191,65,Male,Shymkent,Outerwear,Coat,35000,3,20,3.0,03-03-2026,Bank Card
+192,64,Male,Karaganda,Accessories,Hat,38000,1,0,3.9,31-07-2026,Halyk QR
+193,46,Male,Atyrau,Footwear,Shoes,14500,1,0,2.9,31-01-2026,Cash
+194,36,Male,Astana,Accessories,Belt,50000,2,10,3.0,26-05-2026,Kaspi QR
+195,51,Male,Almaty,Accessories,Backpack,47000,3,0,3.1,23-07-2026,Cash
+196,51,Male,Aktobe,Outerwear,Jacket,12500,5,10,4.3,31-03-2026,Cash
+197,38,Male,Atyrau,Footwear,Boots,44000,2,0,3.9,19-02-2026,Kaspi QR
+198,59,Male,Almaty,Accessories,Scarf,39000,2,5,3.2,07-01-2026,Halyk QR
+199,57,Male,Karaganda,Accessories,Jewelry,22500,2,10,4.8,12-02-2026,Halyk QR
+200,54,Male,Atyrau,Accessories,Hat,36500,2,0,3.8,25-01-2026,Bank Card
+201,25,Male,Astana,Clothing,Dress,30500,3,20,3.3,08-07-2026,Halyk QR
+202,69,Male,Karaganda,Clothing,Blouse,11000,2,10,4.3,26-01-2026,Halyk QR
+203,57,Male,Karaganda,Accessories,Hat,19000,2,20,2.7,31-05-2026,Cash
+204,70,Male,Atyrau,Accessories,Scarf,19000,1,0,3.2,08-06-2026,Bank Card
+205,24,Male,Karaganda,Footwear,Sneakers,50000,2,10,4.0,15-05-2026,Bank Card
+206,67,Male,,Clothing,Shirt,32000,3,0,3.0,06-04-2026,Kaspi QR
+207,24,Male,Almaty,Clothing,T-shirt,27500,1,20,4.2,23-04-2026,Kaspi QR
+208,62,Male,Atyrau,Accessories,Gloves,45500,2,15,2.9,10-07-2026,Kaspi QR
+209,57,Male,Atyrau,Clothing,Skirt,19000,2,25,4.1,03-04-2026,Halyk QR
+210,55,Male,Aktobe,Footwear,Sandals,48500,4,0,3.2,12-05-2026,Halyk QR
+211,45,Male,Karaganda,Outerwear,Jacket,11000,1,10,3.0,05-03-2026,Kaspi QR
+212,69,Male,Karaganda,Clothing,Skirt,46000,2,5,4.2,27-05-2026,Kaspi QR
+213,67,Male,Shymkent,Accessories,Handbag,42000,1,0,4.2,20-06-2026,Halyk QR
+214,30,Male,Aktobe,Accessories,Handbag,46500,5,5,4.4,13-06-2026,Cash
+215,24,Male,Astana,Outerwear,Jacket,25000,2,15,4.2,01-02-2026,Kaspi QR
+216,62,Male,Atyrau,Accessories,Scarf,32000,2,25,2.8,31-03-2026,Cash
+217,43,Male,Atyrau,Clothing,Shorts,30500,3,15,3.7,08-07-2026,Cash
+218,35,Male,Aktobe,Accessories,Sunglasses,24000,1,10,3.5,04-07-2026,Kaspi QR
+219,28,Male,Shymkent,Clothing,T-shirt,22500,3,5,2.9,26-04-2026,Kaspi QR
+220,32,Male,Almaty,Accessories,Belt,44000,2,15,3.0,19-02-2026,Bank Card
+221,39,Male,Aktobe,Footwear,Sneakers,28500,1,5,3.7,16-04-2026,Halyk QR
+222,28,Male,Almaty,Accessories,Hat,34000,2,5,4.4,18-01-2026,Halyk QR
+223,47,Male,Karaganda,Accessories,Gloves,47000,5,10,4.5,06-07-2026,Halyk QR
+224,20,Male,Karaganda,Clothing,Pants,20500,4,10,4.8,19-01-2026,Kaspi QR
+225,63,Male,Shymkent,Clothing,Socks,41500,2,20,2.9,14-02-2026,Halyk QR
+226,25,Male,Atyrau,Outerwear,Jacket,11000,2,10,3.2,02-02-2026,Kaspi QR
+227,29,Male,Karaganda,Footwear,Shoes,37000,4,5,3.3,23-08-2026,Halyk QR
+228,50,Male,Aktobe,Clothing,Jeans,45000,2,20,4.2,27-02-2026,Kaspi QR
+229,18,Male,Atyrau,Clothing,Socks,39500,3,15,2.9,19-06-2026,Kaspi QR
+230,70,Male,Almaty,Footwear,Sandals,14000,2,25,4.6,10-04-2026,Bank Card
+231,66,Male,Karaganda,Accessories,Scarf,44000,1,15,4.1,25-08-2026,Bank Card
+232,28,Male,Astana,Clothing,Blouse,13000,1,25,3.1,20-07-2026,Kaspi QR
+233,54,Male,Astana,Accessories,Jewelry,13500,4,15,4.2,18-04-2026,Halyk QR
+234,19,Male,Aktobe,Clothing,Sweater,41500,5,0,4.5,31-07-2026,Cash
+235,20,Male,Aktobe,Accessories,Gloves,19500,1,0,3.7,07-04-2026,Halyk QR
+236,43,Male,Aktobe,Accessories,Sunglasses,44500,2,15,3.7,12-03-2026,Kaspi QR
+237,38,Male,Atyrau,Outerwear,Coat,34000,3,0,3.4,20-04-2026,Bank Card
+238,50,Male,Aktobe,Clothing,Dress,45000,2,5,3.0,29-03-2026,Cash
+239,64,Male,Aktobe,Clothing,Skirt,17000,1,25,4.2,09-06-2026,Cash
+240,49,Male,Karaganda,Clothing,Pants,25500,1,20,2.9,08-02-2026,Halyk QR
+241,47,Male,Shymkent,Clothing,Sweater,22500,1,10,3.5,02-07-2026,Bank Card
+242,36,Male,Aktobe,Clothing,Hoodie,44000,1,5,4.1,07-04-2026,Bank Card
+243,55,Male,Shymkent,Outerwear,Coat,42500,3,10,4.3,30-01-2026,Cash
+244,25,Male,Shymkent,Accessories,Jewelry,50000,2,25,2.8,30-05-2026,Cash
+245,53,Male,Shymkent,Accessories,Belt,21000,2,25,4.9,11-05-2026,Cash
+246,49,Male,Karaganda,Footwear,Sandals,26500,1,25,3.3,07-04-2026,Kaspi QR
+247,35,Male,Shymkent,Accessories,Sunglasses,43000,2,5,3.2,05-02-2026,Bank Card
+248,29,Male,Shymkent,Clothing,Sweater,33000,4,25,4.4,24-03-2026,Cash
+249,47,Male,Almaty,Accessories,Belt,50000,1,5,4.8,27-05-2026,Bank Card
+250,53,Male,Astana,Accessories,Handbag,23500,3,0,4.2,28-02-2026,Halyk QR
+251,33,Male,Karaganda,Clothing,Skirt,12500,1,10,4.0,15-02-2026,Bank Card
+252,21,Male,Karaganda,Accessories,Handbag,25500,1,0,2.5,06-02-2026,Halyk QR
+253,32,Male,Atyrau,Clothing,Shorts,20500,1,5,3.9,06-06-2026,Bank Card
+254,52,Male,Aktobe,Footwear,Boots,36500,4,25,4.9,25-08-2026,Kaspi QR
+255,67,Male,Aktobe,Accessories,Sunglasses,21000,1,10,3.5,14-04-2026,Kaspi QR
+256,43,Male,Astana,Accessories,Scarf,10000,4,20,4.2,13-07-2026,Halyk QR
+257,58,Male,Karaganda,Accessories,Jewelry,15000,3,5,4.7,11-08-2026,Cash
+258,20,Male,Atyrau,Accessories,Handbag,26500,4,15,4.5,27-05-2026,Bank Card
+259,61,Male,Astana,Accessories,Gloves,37000,3,0,2.8,17-04-2026,Cash
+260,32,Male,Almaty,Clothing,Jeans,28500,1,15,2.9,02-01-2026,Halyk QR
+261,38,Male,Astana,Accessories,Hat,28500,2,25,3.2,03-05-2026,Kaspi QR
+262,21,Male,Karaganda,Clothing,Jeans,38500,2,0,4.9,22-07-2026,Bank Card
+263,37,Male,Almaty,Clothing,Pants,20000,1,25,,15-03-2026,Halyk QR
+264,27,Male,Shymkent,Clothing,Shorts,23000,2,20,4.3,20-07-2026,Cash
+265,36,Male,Karaganda,Clothing,Pants,39000,3,15,3.9,19-07-2026,Bank Card
+266,32,Male,Astana,Accessories,Backpack,29500,2,20,3.2,20-07-2026,Bank Card
+267,51,Male,Shymkent,Accessories,Jewelry,37500,1,5,3.1,04-03-2026,Halyk QR
+268,64,Male,Karaganda,Clothing,Sweater,27000,5,20,3.9,27-01-2026,Bank Card
+269,68,Male,Almaty,Footwear,Shoes,21000,1,15,2.6,22-02-2026,Halyk QR
+270,68,Male,Almaty,Clothing,Blouse,22000,2,10,3.3,26-03-2026,Bank Card
+271,33,Male,Atyrau,Clothing,Jeans,26000,2,25,4.6,19-08-2026,Cash
+272,65,Male,Karaganda,Accessories,Sunglasses,34500,3,25,4.6,04-01-2026,Cash
+273,48,Male,Atyrau,Accessories,Jewelry,13000,5,20,4.4,04-08-2026,Kaspi QR
+274,69,Male,Almaty,Outerwear,Coat,16500,2,25,4.2,01-06-2026,Cash
+275,59,Male,Aktobe,Accessories,Jewelry,16000,3,0,3.0,26-06-2026,Kaspi QR
+276,48,Male,Aktobe,Accessories,Backpack,42500,2,25,4.0,12-07-2026,Halyk QR
+277,25,Male,Atyrau,Clothing,Skirt,15000,2,25,3.5,30-03-2026,Cash
+278,29,Male,Atyrau,Clothing,Shirt,14500,1,20,3.0,02-08-2026,Kaspi QR
+279,57,Male,Karaganda,Clothing,Sweater,47500,2,5,3.7,20-02-2026,Halyk QR
+280,23,Male,Atyrau,Footwear,Sneakers,34500,2,25,4.0,31-08-2026,Bank Card
+281,45,Male,Aktobe,Footwear,Sandals,34500,3,20,4.2,30-05-2026,Cash
+282,38,Male,Shymkent,Accessories,Belt,30500,2,0,2.5,12-05-2026,Bank Card
+283,21,Male,Almaty,Clothing,Skirt,47000,2,20,3.0,07-04-2026,Cash
+284,32,Male,Astana,Clothing,Sweater,15000,3,20,3.2,20-03-2026,Bank Card
+285,63,Male,Aktobe,Clothing,Skirt,22500,2,15,3.5,31-03-2026,Kaspi QR
+286,29,Male,Almaty,Accessories,Handbag,19500,4,5,4.8,08-08-2026,Halyk QR
+287,27,Male,Atyrau,Accessories,Jewelry,25500,2,5,2.6,11-08-2026,Bank Card
+288,56,Male,Aktobe,Accessories,Scarf,18500,1,0,3.4,08-02-2026,Bank Card
+289,30,Male,Shymkent,Clothing,T-shirt,31000,4,0,3.7,05-07-2026,Bank Card
+290,49,Male,Atyrau,Outerwear,Coat,42500,3,10,4.5,09-08-2026,Bank Card
+291,58,Male,Shymkent,Clothing,T-shirt,16500,1,5,3.7,26-02-2026,Halyk QR
+292,57,Male,Astana,Clothing,Dress,13000,2,15,3.3,06-06-2026,Cash
+293,60,Male,Aktobe,Footwear,Shoes,49500,2,15,4.7,02-03-2026,Halyk QR
+294,69,Male,Shymkent,Accessories,Handbag,19500,1,25,2.7,03-03-2026,Halyk QR
+295,70,Male,Astana,Clothing,Skirt,10000,2,10,4.6,13-01-2026,Halyk QR
+296,53,Male,Astana,Accessories,Sunglasses,21000,2,10,2.7,01-05-2026,Bank Card
+297,25,Male,Atyrau,Footwear,Sandals,37000,1,25,4.8,13-07-2026,Bank Card
+298,48,Male,Almaty,Footwear,Shoes,13000,4,25,4.4,01-06-2026,Cash
+299,69,Male,Shymkent,Clothing,T-shirt,26500,1,25,4.0,10-04-2026,Cash
+300,25,Male,Atyrau,Footwear,Sneakers,40000,1,20,3.2,27-03-2026,Halyk QR
+301,29,Male,Aktobe,Accessories,Hat,49000,3,20,4.4,21-04-2026,Cash
+302,46,Male,Aktobe,Clothing,Skirt,47500,2,25,3.8,14-08-2026,Kaspi QR
+303,37,Male,Karaganda,Clothing,Sweater,22000,1,20,3.6,16-08-2026,Bank Card
+304,20,Male,Aktobe,Footwear,Sandals,30000,4,20,3.3,24-01-2026,Halyk QR
+305,40,Male,Aktobe,Clothing,Dress,42000,2,15,3.4,28-04-2026,Bank Card
+306,60,Male,Karaganda,Clothing,Sweater,29500,1,5,3.5,28-02-2026,Bank Card
+307,26,Male,Karaganda,Outerwear,Jacket,24500,2,5,3.6,31-05-2026,Bank Card
+308,29,Male,Aktobe,Accessories,Gloves,16000,2,10,3.2,20-08-2026,Cash
+309,66,Male,Shymkent,Accessories,Handbag,14500,1,0,3.7,24-04-2026,Kaspi QR
+310,66,Male,Aktobe,Clothing,Dress,11000,3,5,4.5,03-05-2026,Cash
+311,56,Male,Astana,Clothing,Pants,42500,1,20,4.6,05-03-2026,Bank Card
+312,69,Male,Astana,Clothing,Jeans,26000,1,5,4.1,27-03-2026,Halyk QR
+313,38,Male,Astana,Clothing,Pants,44500,2,10,3.4,13-06-2026,Kaspi QR
+314,42,Male,Atyrau,Clothing,Dress,38500,1,10,3.7,29-07-2026,Cash
+315,30,Male,Aktobe,Clothing,Pants,12000,1,5,3.3,29-08-2026,Bank Card
+316,66,Male,Karaganda,Accessories,Jewelry,12000,1,15,4.5,23-04-2026,Cash
+317,36,Male,Shymkent,Accessories,Handbag,11000,3,25,3.3,13-03-2026,Kaspi QR
+318,58,Male,Astana,Clothing,Sweater,41000,2,25,4.3,17-06-2026,Halyk QR
+319,45,Male,Atyrau,Accessories,Backpack,33500,5,20,2.5,22-05-2026,Kaspi QR
+320,47,Male,Astana,Clothing,Shorts,37000,2,20,2.6,25-01-2026,Bank Card
+321,66,Male,Karaganda,Accessories,Jewelry,36000,2,5,4.9,03-01-2026,Halyk QR
+322,41,Male,Almaty,Footwear,Sneakers,18000,1,5,4.7,17-04-2026,Halyk QR
+323,41,Male,Astana,Accessories,Belt,47500,1,15,3.0,26-08-2026,Bank Card
+324,66,Male,Karaganda,Clothing,Hoodie,39000,2,20,3.5,09-04-2026,Halyk QR
+325,37,Male,Karaganda,Clothing,Shirt,41000,2,0,4.8,07-04-2026,Bank Card
+326,70,Male,Shymkent,Clothing,Pants,35000,1,20,4.3,08-06-2026,Bank Card
+327,62,Male,Karaganda,Accessories,Scarf,20500,3,0,3.2,15-01-2026,Cash
+328,61,Male,Aktobe,Outerwear,Coat,21000,1,25,3.1,24-01-2026,Halyk QR
+329,48,Male,Astana,Outerwear,Coat,25000,4,10,2.8,16-08-2026,Kaspi QR
+330,70,Male,Astana,Clothing,Socks,15500,1,25,2.9,02-04-2026,Kaspi QR
+331,46,Male,Astana,Clothing,Sweater,25500,2,15,3.7,27-04-2026,Bank Card
+332,31,Male,Shymkent,Clothing,Shirt,49000,2,15,3.3,12-05-2026,Halyk QR
+333,19,Male,Shymkent,Clothing,Shirt,43000,3,15,2.8,02-03-2026,Halyk QR
+334,39,Male,Shymkent,Clothing,Sweater,32000,1,25,4.5,10-02-2026,Halyk QR
+335,41,Male,Shymkent,Clothing,Blouse,23000,1,20,2.6,14-02-2026,Kaspi QR
+336,20,Male,Karaganda,Clothing,Sweater,42500,3,15,,20-03-2026,Halyk QR
+337,36,Male,Astana,Accessories,Hat,40500,3,25,4.4,03-05-2026,Cash
+338,32,Male,Atyrau,Clothing,Sweater,29500,1,5,4.3,30-06-2026,Halyk QR
+339,69,Male,Karaganda,Clothing,Hoodie,39500,4,15,3.5,15-02-2026,Kaspi QR
+340,40,Male,Shymkent,Clothing,Shorts,16500,1,20,3.8,30-07-2026,Cash
+341,40,Male,Karaganda,Clothing,Shorts,23500,5,15,3.5,06-04-2026,Kaspi QR
+342,20,Male,Karaganda,Accessories,Hat,10000,2,0,4.6,23-03-2026,Kaspi QR
+343,64,Male,Almaty,Outerwear,Coat,18000,3,15,2.6,26-05-2026,Cash
+344,27,Male,Almaty,Footwear,Sandals,19500,1,0,4.4,06-02-2026,Bank Card
+345,24,Male,Shymkent,Clothing,Skirt,35500,1,5,4.0,24-03-2026,Bank Card
+346,48,Male,Aktobe,Footwear,Shoes,29500,2,0,4.4,14-05-2026,Cash
+347,49,Male,Atyrau,Clothing,Jeans,25000,3,20,4.7,05-07-2026,Halyk QR
+348,36,Male,Karaganda,Footwear,Sandals,20500,1,5,3.9,12-04-2026,Bank Card
+349,56,Male,Atyrau,Clothing,Blouse,29500,3,10,2.7,07-02-2026,Bank Card
+350,37,Male,Aktobe,Accessories,Hat,43500,1,0,3.7,17-08-2026,Cash
+351,42,Male,Atyrau,Clothing,Sweater,34000,4,15,2.6,23-02-2026,Bank Card
+352,28,Male,Astana,Clothing,Skirt,45000,5,0,3.9,06-04-2026,Bank Card
+353,27,Male,Karaganda,Clothing,Jeans,35500,3,0,4.9,21-08-2026,Halyk QR
+354,63,Male,Astana,Footwear,Sneakers,32000,1,20,4.1,09-07-2026,Halyk QR
+355,58,Male,Shymkent,Accessories,Jewelry,38000,3,5,3.0,07-02-2026,Cash
+356,37,Male,Almaty,Accessories,Jewelry,21000,1,25,4.1,04-01-2026,Kaspi QR
+357,56,Male,Almaty,Clothing,Pants,40000,1,15,3.8,04-01-2026,Bank Card
+358,18,Male,Atyrau,Accessories,Belt,28000,1,20,4.0,02-03-2026,Cash
+359,48,Male,Shymkent,Accessories,Hat,12500,1,20,3.6,20-03-2026,Cash
+360,31,Male,Shymkent,Footwear,Sneakers,37000,3,15,3.0,03-03-2026,Kaspi QR
+361,51,Male,Aktobe,Clothing,Pants,15000,2,20,3.0,26-05-2026,Halyk QR
+362,65,Male,Atyrau,Clothing,T-shirt,48000,1,10,2.6,27-08-2026,Cash
+363,53,Male,Almaty,Footwear,Sneakers,32000,2,25,3.4,08-05-2026,Bank Card
+364,55,Male,Almaty,Clothing,Shorts,44000,2,5,3.1,01-06-2026,Bank Card
+365,62,Male,Shymkent,Footwear,Shoes,44000,2,25,3.0,16-08-2026,Cash
+366,55,Male,Almaty,Accessories,Gloves,44000,2,5,3.7,13-05-2026,Bank Card
+367,64,Male,Karaganda,Clothing,Socks,18000,2,5,3.5,04-05-2026,Cash
+368,52,Male,Shymkent,Clothing,Dress,20000,1,5,2.8,04-05-2026,Halyk QR
+369,24,Male,Almaty,Accessories,Handbag,19500,1,15,4.5,12-05-2026,Kaspi QR
+370,38,Male,Atyrau,Accessories,Belt,20000,1,15,3.3,15-01-2026,Bank Card
+371,59,Male,Shymkent,Accessories,Scarf,17000,2,25,3.4,14-08-2026,Bank Card
+372,27,Male,Astana,Footwear,Sneakers,41500,1,10,3.2,09-02-2026,Kaspi QR
+373,24,Male,Aktobe,Clothing,Sweater,42500,2,15,3.7,07-08-2026,Bank Card
+374,23,Male,Atyrau,Outerwear,Coat,13500,4,25,4.6,21-03-2026,Kaspi QR
+375,69,Male,Astana,Accessories,Jewelry,39000,5,15,5.0,10-07-2026,Bank Card
+376,59,Male,Aktobe,Accessories,Sunglasses,16000,3,10,4.4,18-04-2026,Cash
+377,51,Male,Atyrau,Footwear,Shoes,25500,1,20,4.9,26-07-2026,Bank Card
+378,63,Male,,Accessories,Scarf,16000,2,0,4.1,08-02-2026,Bank Card
+379,54,Male,Aktobe,Clothing,Dress,31000,2,10,4.9,09-02-2026,Kaspi QR
+380,32,Male,Aktobe,Clothing,T-shirt,14500,2,20,4.7,19-08-2026,Halyk QR
+381,39,Male,Almaty,Accessories,Backpack,34500,1,10,3.0,16-04-2026,Bank Card
+382,66,Male,Astana,Accessories,Jewelry,12500,3,10,3.4,04-05-2026,Halyk QR
+383,28,Male,Astana,Clothing,Jeans,38000,1,25,3.2,12-03-2026,Halyk QR
+384,50,Male,Atyrau,Accessories,Sunglasses,38500,2,15,2.9,12-06-2026,Bank Card
+385,70,Male,Astana,Clothing,Sweater,16500,1,5,4.5,24-02-2026,Cash
+386,67,Male,Shymkent,Clothing,Shorts,46500,2,5,2.7,09-03-2026,Bank Card
+387,64,Male,Karaganda,Accessories,Jewelry,19500,4,0,3.4,25-01-2026,Kaspi QR
+388,45,Male,Astana,Outerwear,Coat,46500,1,20,4.6,11-08-2026,Halyk QR
+389,22,Male,Astana,Accessories,Handbag,41000,1,10,2.7,10-01-2026,Kaspi QR
+390,27,Male,Aktobe,Footwear,Boots,21000,3,20,4.2,27-07-2026,Kaspi QR
+391,25,Male,Atyrau,Accessories,Gloves,35500,4,15,3.2,20-08-2026,Halyk QR
+392,37,Male,Shymkent,Clothing,Sweater,43000,1,0,4.8,12-08-2026,Halyk QR
+393,26,Male,Atyrau,Clothing,T-shirt,41000,1,0,3.3,21-08-2026,Cash
+394,33,Male,Almaty,Footwear,Shoes,32500,1,5,4.2,10-03-2026,Bank Card
+395,43,Male,Astana,Accessories,Scarf,14500,4,25,4.8,02-04-2026,Kaspi QR
+396,37,Male,Astana,Footwear,Sneakers,32500,2,0,4.9,18-07-2026,Cash
+397,46,Male,Almaty,Clothing,Dress,44000,2,25,3.9,06-05-2026,Kaspi QR
+398,22,Male,Shymkent,Accessories,Belt,23000,3,20,3.0,02-04-2026,Halyk QR
+399,20,Male,Shymkent,Footwear,Boots,33500,1,0,4.6,25-06-2026,Halyk QR
+400,60,Male,Aktobe,Accessories,Scarf,17500,4,10,3.5,05-03-2026,Bank Card
+401,39,Male,Shymkent,Footwear,Boots,33000,1,5,4.8,04-02-2026,Bank Card
+402,43,Male,Shymkent,Clothing,T-shirt,45500,1,15,4.8,13-06-2026,Cash
+403,31,Male,Almaty,Accessories,Backpack,39000,1,10,3.0,29-06-2026,Bank Card
+404,19,Male,Atyrau,Footwear,Sneakers,22500,1,15,4.5,20-08-2026,Bank Card
+405,35,Male,Atyrau,Clothing,T-shirt,46500,4,10,4.8,21-02-2026,Cash
+406,41,Male,Atyrau,Clothing,Jeans,37000,4,0,3.8,27-04-2026,Cash
+407,52,Male,Karaganda,Accessories,Gloves,27500,1,0,4.6,12-03-2026,Halyk QR
+408,45,Male,Astana,Clothing,Hoodie,38000,3,20,3.1,26-03-2026,Halyk QR
+409,34,Male,Almaty,Footwear,Sneakers,33000,4,20,3.4,07-01-2026,Bank Card
+410,35,Male,Aktobe,Clothing,Shorts,25500,4,20,3.3,30-03-2026,Bank Card
+411,29,Male,Shymkent,Clothing,Sweater,13000,3,0,,27-03-2026,Bank Card
+412,59,Male,Astana,Clothing,Jeans,14500,1,0,2.8,17-05-2026,Kaspi QR
+413,24,Male,Almaty,Outerwear,Jacket,37000,4,15,3.1,26-08-2026,Cash
+414,70,Male,Atyrau,Accessories,Jewelry,49500,3,10,4.6,07-05-2026,Bank Card
+415,29,Male,Aktobe,Accessories,Backpack,44000,3,20,2.6,27-02-2026,Halyk QR
+416,67,Male,Shymkent,Outerwear,Coat,15500,4,25,2.6,12-01-2026,Kaspi QR
+417,36,Male,Atyrau,Accessories,Belt,27500,1,15,3.8,29-06-2026,Bank Card
+418,23,Male,Astana,Footwear,Sandals,40500,1,15,4.5,23-02-2026,Kaspi QR
+419,18,Male,Atyrau,Clothing,Sweater,36500,4,25,3.0,12-07-2026,Kaspi QR
+420,53,Male,Almaty,Clothing,Shorts,45500,3,15,3.5,20-03-2026,Cash
+421,32,Male,Astana,Clothing,Socks,27000,2,10,3.8,02-03-2026,Cash
+422,38,Male,Karaganda,Clothing,Shirt,20000,1,0,3.5,11-03-2026,Cash
+423,47,Male,Atyrau,Clothing,Pants,29500,1,5,3.1,07-04-2026,Halyk QR
+424,46,Male,Karaganda,Accessories,Scarf,13000,1,20,3.0,07-04-2026,Cash
+425,66,Male,Aktobe,Clothing,Sweater,11500,5,5,4.3,04-04-2026,Kaspi QR
+426,40,Male,Astana,Clothing,Jeans,43500,,10,3.3,27-03-2026,Bank Card
+427,43,Male,Atyrau,Clothing,Pants,35500,4,20,4.7,03-06-2026,Kaspi QR
+428,58,Male,Astana,Accessories,Backpack,45500,2,15,4.5,13-07-2026,Kaspi QR
+429,21,Male,Shymkent,Outerwear,Coat,32000,5,5,2.9,16-04-2026,Cash
+430,42,Male,Atyrau,Footwear,Sandals,47000,1,15,4.1,03-05-2026,Kaspi QR
+431,24,Male,Atyrau,Clothing,Shirt,20000,2,10,3.5,11-04-2026,Bank Card
+432,43,Male,Atyrau,Accessories,Hat,38000,5,20,3.4,31-05-2026,Bank Card
+433,47,Male,Almaty,Clothing,Shirt,43000,3,5,3.3,23-08-2026,Halyk QR
+434,49,Male,Atyrau,Clothing,Skirt,46000,2,15,3.2,11-02-2026,Cash
+435,50,Male,Shymkent,Footwear,Shoes,26000,3,20,4.0,18-01-2026,Cash
+436,51,Male,Atyrau,Outerwear,Coat,14000,1,0,3.6,01-03-2026,Halyk QR
+437,40,Male,Astana,Clothing,Pants,23000,3,10,4.6,28-04-2026,Halyk QR
+438,45,Male,Aktobe,Accessories,Jewelry,25000,1,0,2.6,16-04-2026,Kaspi QR
+439,52,Male,Astana,Accessories,Belt,11500,1,20,4.3,21-02-2026,Kaspi QR
+440,62,Male,Shymkent,Outerwear,Jacket,25000,2,0,3.4,30-03-2026,Kaspi QR
+441,20,Male,Atyrau,Clothing,Shirt,44500,2,25,3.5,19-07-2026,Cash
+442,43,Male,Atyrau,Clothing,Hoodie,40500,1,25,4.2,14-06-2026,Bank Card
+443,29,Male,Atyrau,Accessories,Sunglasses,34500,1,15,3.5,22-01-2026,Kaspi QR
+444,22,Male,Almaty,Accessories,Sunglasses,33500,1,10,3.6,04-06-2026,Cash
+445,48,Male,Karaganda,Clothing,Dress,10000,3,15,4.3,12-07-2026,Halyk QR
+446,42,Male,Atyrau,Footwear,Boots,14500,1,20,4.9,19-07-2026,Bank Card
+447,19,Male,Astana,Clothing,Shirt,37000,1,15,4.1,30-04-2026,Bank Card
+448,60,Male,Karaganda,Clothing,Shorts,41000,1,10,3.6,24-07-2026,Bank Card
+449,32,Male,Astana,Accessories,Gloves,11500,2,0,3.4,04-03-2026,Halyk QR
+450,26,Male,Shymkent,Accessories,Jewelry,22500,3,20,2.9,04-04-2026,Kaspi QR
+451,25,Male,Aktobe,Footwear,Boots,10500,3,25,2.7,25-04-2026,Halyk QR
+452,66,Male,Shymkent,Accessories,Jewelry,15500,1,10,4.3,27-01-2026,Halyk QR
+453,45,Male,Shymkent,Clothing,Pants,22500,2,25,3.3,14-03-2026,Kaspi QR
+454,54,Male,Aktobe,Accessories,Jewelry,28000,2,15,2.8,01-06-2026,Bank Card
+455,37,Male,Shymkent,Outerwear,Jacket,48500,4,25,3.2,27-06-2026,Cash
+456,54,Male,Almaty,Clothing,Blouse,50000,2,0,3.6,22-06-2026,Cash
+457,50,Male,Atyrau,Clothing,Blouse,48000,1,0,4.0,26-05-2026,Cash
+458,25,Male,Aktobe,Accessories,Gloves,49500,2,0,4.9,01-05-2026,Bank Card
+459,47,Male,Atyrau,Clothing,Shorts,45500,3,25,4.0,07-02-2026,Cash
+460,63,Male,Shymkent,Accessories,Hat,15000,2,5,3.8,25-08-2026,Kaspi QR
+461,64,Male,Aktobe,Footwear,Shoes,32500,1,0,3.7,09-01-2026,Halyk QR
+462,18,Male,Almaty,Footwear,Boots,46500,1,0,3.9,31-03-2026,Kaspi QR
+463,59,Male,Almaty,Outerwear,Jacket,40500,5,10,3.3,25-08-2026,Kaspi QR
+464,37,Male,Almaty,Accessories,Jewelry,40500,2,15,2.7,02-07-2026,Kaspi QR
+465,23,Male,Karaganda,Accessories,Sunglasses,26000,4,15,4.7,05-07-2026,Bank Card
+466,54,Male,Karaganda,Clothing,Skirt,44000,4,10,2.8,16-06-2026,Kaspi QR
+467,38,Male,Atyrau,Clothing,Jeans,12000,1,5,4.6,12-01-2026,Kaspi QR
+468,19,Male,Astana,Accessories,Backpack,25500,2,5,4.5,04-03-2026,Cash
+469,34,Male,Karaganda,Accessories,Backpack,19000,2,20,5.0,24-01-2026,Cash
+470,21,Male,Shymkent,Clothing,Shorts,23000,1,20,4.1,07-03-2026,Halyk QR
+471,50,Male,Karaganda,Clothing,Dress,31500,1,5,4.6,19-03-2026,Kaspi QR
+472,55,Male,Atyrau,Accessories,Scarf,36000,1,20,4.9,08-07-2026,Cash
+473,20,Male,Karaganda,Clothing,Jeans,19500,1,15,3.9,28-04-2026,Bank Card
+474,34,Male,Karaganda,Outerwear,Coat,21000,2,20,3.9,29-03-2026,Kaspi QR
+475,62,Male,Atyrau,Clothing,Sweater,38000,2,5,2.6,13-02-2026,Bank Card
+476,21,Male,Atyrau,Footwear,Sneakers,33000,3,15,2.7,23-08-2026,Kaspi QR
+477,21,Male,Aktobe,Accessories,Scarf,45000,2,0,3.5,20-04-2026,Bank Card
+478,42,Male,Almaty,Clothing,Sweater,28000,2,15,3.7,01-06-2026,Bank Card
+479,35,Male,Atyrau,Accessories,Jewelry,21500,2,25,3.2,17-07-2026,Bank Card
+480,39,Male,Shymkent,Accessories,Handbag,42000,4,0,3.3,20-06-2026,Bank Card
+481,68,Male,Astana,Clothing,Hoodie,44000,1,15,4.8,26-05-2026,Kaspi QR
+482,46,Male,Aktobe,Accessories,Hat,44000,4,15,3.2,25-06-2026,Cash
+483,41,Male,Astana,Accessories,Belt,21000,2,10,2.5,29-06-2026,Kaspi QR
+484,23,Male,Astana,Clothing,Hoodie,36500,1,15,3.9,19-06-2026,Bank Card
+485,68,Male,Shymkent,Accessories,Hat,36500,2,0,4.7,02-02-2026,Cash
+486,48,Male,Aktobe,Footwear,Shoes,22000,1,10,2.6,03-07-2026,Kaspi QR
+487,38,Male,Aktobe,Footwear,Sandals,31500,2,0,2.8,14-02-2026,Halyk QR
+488,41,Male,Atyrau,Outerwear,Jacket,34000,1,0,4.4,23-08-2026,Bank Card
+489,58,Male,Atyrau,Clothing,Sweater,14500,1,20,4.6,30-08-2026,Cash
+490,49,Male,Karaganda,Clothing,Socks,42500,1,5,3.2,26-04-2026,Halyk QR
+491,57,Male,Atyrau,Footwear,Sneakers,21000,5,25,4.2,23-08-2026,Kaspi QR
+492,49,Male,Atyrau,Outerwear,Coat,34500,4,0,3.7,28-07-2026,Bank Card
+493,50,Male,Almaty,Clothing,Shirt,31000,2,20,3.9,25-08-2026,Bank Card
+494,28,Male,Atyrau,Accessories,Backpack,24000,2,15,4.7,05-08-2026,Kaspi QR
+495,38,Male,Aktobe,Footwear,Boots,34000,1,0,4.5,20-05-2026,Kaspi QR
+496,33,Male,,Accessories,Handbag,18000,1,20,3.3,05-04-2026,Halyk QR
+497,30,Male,Atyrau,Clothing,Dress,31500,3,0,3.3,09-08-2026,Halyk QR
+498,43,Male,Shymkent,Footwear,Sneakers,19500,,0,4.6,07-02-2026,Bank Card
+499,43,Male,Almaty,Footwear,Boots,39000,1,10,3.6,17-05-2026,Cash
+500,36,Male,Almaty,Footwear,Shoes,49500,2,25,4.8,24-08-2026,Halyk QR
+501,36,Male,Aktobe,Clothing,T-shirt,15500,1,10,4.8,06-01-2026,Cash
+502,64,Male,Atyrau,Footwear,Boots,22500,1,15,,22-08-2026,Bank Card
